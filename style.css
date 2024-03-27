@@ -1,0 +1,182 @@
+/* Basic Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2, h3 {
+    margin: 1rem 0;
+    padding: 0;
+  }
+  
+  p {
+    margin: 0.5rem 0;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #2723f7;
+  }
+  
+  a:hover {
+    color: #f7fdff;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #8bedfa;
+    padding: 3rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  h1 {
+    font-size: 1.5rem;
+    margin: 0;
+  }
+  
+  /* Navigation Styles */
+  nav {
+    background-color: #24d3ff;
+    padding: 1rem 2rem;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 1rem;
+  }
+  
+  nav li.active a {
+    font-weight: bold;
+  }
+  
+  /* Main Content Styles */
+  main {
+    padding: 2rem;
+  }
+  
+  .hero {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .resources-banner,
+  .about-us,
+  .team {
+    background-color: #f5f5f5;
+    padding: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .resource-type,
+  .team-member {
+    margin-bottom: 1rem;
+  }
+  
+  .resource-type ul,
+  .team-member p {
+    margin-left: 1rem;
+  }
+  
+  .team-member img {
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Button Styles */
+  .btn {
+    background-color: #333;
+    color: white;
+    padding: 0.75rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 1rem;
+  }
+  
+  .btn:hover {
+    background-color: #666;
+  }
+  .hero {
+    width: 100%;
+    height: 500px; /* Set a specific height for the hero section (adjust as needed) */
+  }
+  
+  .hero img {
+    width: 100%;
+    height: 100%; /* Set height to 100% to fill the container */
+    object-fit: cover; /* Stretch the image to cover the entire container (may cause cropping) */
+    object-position: center; /* Center the image within the container */
+    border: 5px solid #ccc;
+  }
+  .team {
+    /* Styles for the overall team section (background, padding, etc.) */
+  }
+  
+  .team-member {
+    display: flex; /* Arrange elements horizontally */
+    align-items: center; /* Align content vertically */
+    margin-bottom: 2rem; /* Add space between team members */
+  }
+  
+  .team-member img {
+    width: 100px; /* Set image width */
+    height: 100px; /* Set image height */
+    border-radius: 50%; /* Create rounded corners for the image */
+    margin-right: 1rem; /* Add space between image and text */
+  }
+  
+  .team-member h3,
+  .team-member p {
+    margin: 0; /* Remove default margins for better spacing */
+  }
+.copyright {
+    color: black;
+  }
+  /* icons style */
+
+.fa-github-square {
+    font-size: 32px;
+    margin: 30px;
+    color: #333;
+  }
+  .fa-linkedin {
+    color: #0077b5;
+    font-size: 32px;
+    margin: 30px;
+  }
+  .fa-twitter-square {
+    color: #1da1f2;
+    font-size: 32px;
+    margin: 30px;
+  }
+  .arrow-icon-wrapper {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .fa-arrow-alt-circle-up {
+    color: rgb(235, 70, 70);
+    cursor: pointer;
+    font-size: 32px;
+  }
+  footer{
+    color: white;
+    background: rgb(107, 211, 243);
+    text-align: center;
+    text-transform: uppercase;
+    padding: 25px;
+  }
